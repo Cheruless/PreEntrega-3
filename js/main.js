@@ -107,6 +107,8 @@ formLogin.onsubmit = e => {
       const inUserValue = document.querySelector('#inUser').value;
       const inPasswordValue = document.querySelector('#inPassword').value;
 
+
+      //ok...
       if (esMayor(inDateValue)) {
         const usuario = new Usuario(inUserValue, inPasswordValue, inDateValue);
         guardarUsuario(usuario)
